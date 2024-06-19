@@ -40,20 +40,20 @@ st.markdown(
 st.divider()
 
 
-# # 데이터 로드
-# file_path = './data/data_info.xlsx - Features.csv'
-# df = pd.read_csv(file_path)
+# 데이터 로드
+file_path = './data/data_info.csv'
+df = pd.read_csv(file_path)
 
-# st.markdown(
-#     """
-#     ### 🕵️Data Overview
-#     """
-# )
+st.markdown(
+    """
+    ### 🕵️Data Overview
+    """
+)
 
-# with st.expander("컬럼 별 정보"):
-#     st.table(df)
+with st.expander("컬럼 별 정보"):
+    st.table(df)
 
-# st.divider()
+st.divider()
 
 st.markdown(
     """
