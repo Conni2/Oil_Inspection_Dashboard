@@ -9,7 +9,7 @@ def main():
     
 
     # 데이터 로드
-    df = pd.read_csv("data\casting.csv")
+    df = pd.read_csv("./data/casting.csv")
 
     # 첫 번째 필터: COMPONENT_ARBITRARY
     selected_components = st.multiselect('⭐Component 선택', df['COMPONENT_ARBITRARY'].unique())
