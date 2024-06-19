@@ -110,8 +110,6 @@ if st.button("오일 상태 점검"):
 
     if not warning_components:
         st.write("🥳모든 컴포넌트에 문제가 없습니다!")
-        st.image("src/그림1.png")
 
     else:
         st.write(f"⚠️오일 교체가 필요한 컴포넌트: {', '.join(warning_components)}")
-        st.image("src/그림2.png")
