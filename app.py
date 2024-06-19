@@ -43,7 +43,9 @@ import streamlit as st
 import pandas as pd
 
 # 데이터 로드
-file_path = 'data\data_info.xlsx - Features.csv'
+test_path = './data/casting.csv'
+file_path = './data/data_info.xlsx - Features.csv'
+df_test = pd.read_csv(test_path)
 df = pd.read_csv(file_path)
 
 st.markdown(
