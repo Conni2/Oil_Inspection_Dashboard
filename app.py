@@ -39,25 +39,21 @@ st.markdown(
 )
 st.divider()
 
-import streamlit as st
-import pandas as pd
 
-# 데이터 로드
-test_path = './data/casting.csv'
-file_path = './data/data_info.xlsx - Features.csv'
-df_test = pd.read_csv(test_path)
-df = pd.read_csv(file_path)
+# # 데이터 로드
+# file_path = './data/data_info.xlsx - Features.csv'
+# df = pd.read_csv(file_path)
 
-st.markdown(
-    """
-    ### 🕵️Data Overview
-    """
-)
+# st.markdown(
+#     """
+#     ### 🕵️Data Overview
+#     """
+# )
 
-with st.expander("컬럼 별 정보"):
-    st.table(df)
+# with st.expander("컬럼 별 정보"):
+#     st.table(df)
 
-st.divider()
+# st.divider()
 
 st.markdown(
     """
