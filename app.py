@@ -62,7 +62,7 @@ st.markdown(
     ### 🛹 Dashboard Overview
     """
 )
-st.image("src/그림3.png")
+st.image("./src/그림3.png")
 st.divider()
 
 st.markdown(
