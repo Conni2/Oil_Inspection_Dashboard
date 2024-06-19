@@ -3,7 +3,7 @@
 Welcome to the Oil Condition Monitoring Dashboard! This project aims to enhance the efficiency and reliability of oil condition checks in construction machinery.
 
 ## Analysis Topic Selection Report
-[View the analysis topic selection report here.](#)
+[View the analysis topic selection report here.](https://drive.google.com/file/d/1uoVZMtQpyBGPH-z4w2SuTcFnBq0kv5Ns/view)
 
 ## Project Overview
 
