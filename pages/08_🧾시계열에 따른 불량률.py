@@ -26,7 +26,7 @@ st.sidebar.write(tabel_side.to_markdown(index=False), unsafe_allow_html=True)
 components = ['COMPONENT1', 'COMPONENT2', 'COMPONENT3', 'COMPONENT4']
 
 # 랜덤으로 값을 생성하기 위해 데이터 불러오기
-data = pd.read_csv('data/casting.csv')
+data = pd.read_csv("./data/casting.csv")
 
 # 데이터프레임 초기화 또는 로드
 if 'component_dfs' not in st.session_state:

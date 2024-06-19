@@ -8,7 +8,7 @@ from sklearn.preprocessing import RobustScaler
 st.set_page_config(page_title="Component3 클러스터링", page_icon="👥")
 
 # 데이터 로드
-df = pd.read_csv('data/casting.csv')
+df = pd.read_csv("./data/casting.csv")
 
 # 컴포넌트 분리
 df_3 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT3']

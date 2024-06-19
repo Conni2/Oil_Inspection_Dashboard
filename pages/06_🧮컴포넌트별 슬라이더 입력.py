@@ -45,7 +45,7 @@ option = st.selectbox('⭐원하는 모델을 선택하세요.',
 
 if option == 'COMPONENT1':
     st.title("COMPONENT1 모델링 결과")
-    df = pd.read_csv('data\casting.csv')
+    df = pd.read_csv("./data/casting.csv")
 
     # 컴포넌트 1 분리
     df_1 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT1']
@@ -137,7 +137,7 @@ if option == 'COMPONENT1':
             st.write("모델이 학습되지 않았습니다. '모델 학습' 버튼을 클릭하여 모델을 학습하세요.")
 elif option == 'COMPONENT2':
     st.title("COMPONENT2 모델링 결과")
-    df = pd.read_csv('data\casting.csv')
+    df = pd.read_csv("./data/casting.csv")
     # 컴포넌트 2 분리
     df_2 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT2']
 
@@ -234,7 +234,7 @@ elif option == 'COMPONENT2':
     # 여기에 COMPONENT2에 대한 모델링 및 예측 코드 추가
 elif option == 'COMPONENT3A':
     st.title("COMPONENT3A 모델링 결과")
-    df = pd.read_csv('data\casting.csv')
+    df = pd.read_csv("./data/casting.csv")
     # 컴포넌트 분리
     df_3 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT3']
 
@@ -360,7 +360,7 @@ elif option == 'COMPONENT3A':
             st.write("모델이 학습되지 않았습니다. '모델 학습' 버튼을 클릭하여 모델을 학습하세요.")
 elif option == 'COMPONENT3B':
     st.title("COMPONENT3B 모델링 결과")
-    df = pd.read_csv('data\casting.csv')
+    df = pd.read_csv("./data/casting.csv")
 
     # 컴포넌트 분리
     df_3 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT3']
@@ -488,7 +488,7 @@ elif option == 'COMPONENT3B':
             st.write("모델이 학습되지 않았습니다. '모델 학습' 버튼을 클릭하여 모델을 학습하세요.")
 elif option == 'COMPONENT3C':
     st.title("COMPONENT3C 모델링 결과")
-    df = pd.read_csv('data\casting.csv')
+    df = pd.read_csv("./data/casting.csv")
 
     # 컴포넌트 분리
     df_3 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT3']
@@ -615,7 +615,7 @@ elif option == 'COMPONENT3C':
             st.write("모델이 학습되지 않았습니다. '모델 학습' 버튼을 클릭하여 모델을 학습하세요.")
 elif option == 'COMPONENT_ALL & COMPONENT4':
     st.title("전체 모델링 결과 / Component 4 결과")
-    df = pd.read_csv('data\casting.csv')
+    df = pd.read_csv("./data/casting.csv")
 
     # 제거할 열 목록
     columns_to_drop = ['ID', 'YEAR', 'SAMPLE_TRANSFER_DAY', 'COMPONENT_ARBITRARY', 'U100', 'U75', 'U50', 'U25', 'U14', 'U6', 'U4', 'FH2O', 'FNOX', 'FOPTIMETHGLY', 'FOXID', 'FSO4', 'FTBN', 'FUEL', 'SOOTPERCENTAGE']

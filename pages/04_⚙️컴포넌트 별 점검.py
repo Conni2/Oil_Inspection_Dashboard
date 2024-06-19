@@ -44,7 +44,7 @@ st.title("⚙️컴포넌트 별 건설 기계 오일 상태 진단")
 ############################ Component 1 ############################
 # 데이터 로드
 st.subheader("🛢️COMPONENT1 모델링 결과")
-df = pd.read_csv('data\casting.csv')
+df = pd.read_csv("./data/casting.csv")
 
 # 컴포넌트 1 분리
 df_1 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT1']
@@ -151,7 +151,7 @@ st.divider()
 ############################ Component 2 ############################
 # 데이터 로드
 st.subheader("🛢️COMPONENT2 모델링 결과")
-df = pd.read_csv('data\casting.csv')
+df = pd.read_csv("./data/casting.csv")
 
 # 컴포넌트 2 분리
 df_2 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT2']
@@ -259,7 +259,7 @@ st.divider()
 ############################ Component 3A ############################
 # 데이터 로드
 st.subheader("🛢️COMPONENT3A 모델링 결과")
-df = pd.read_csv('data\casting.csv')
+df = pd.read_csv("./data/casting.csv")
 
 # 컴포넌트 분리
 df_3 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT3']
@@ -395,7 +395,7 @@ st.divider()
 
 # 데이터 로드
 st.subheader("🛢️COMPONENT3B 모델링 결과")
-df = pd.read_csv('data\casting.csv')
+df = pd.read_csv("./data/casting.csv")
 
 # 컴포넌트 분리
 df_3 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT3']
@@ -532,7 +532,7 @@ st.divider()
 ############################ Component 3C ############################
 # 데이터 로드
 st.subheader("🛢️COMPONENT3C 모델링 결과")
-df = pd.read_csv('data\casting.csv')
+df = pd.read_csv("./data/casting.csv")
 
 # 컴포넌트 분리
 df_3 = df[df['COMPONENT_ARBITRARY'] == 'COMPONENT3']
@@ -672,7 +672,7 @@ st.divider()
         
 # 데이터 로드
 st.subheader("🛢️COMPONENT ALL (4) 모델링 결과")
-df = pd.read_csv('data\casting.csv')
+df = pd.read_csv("./data/casting.csv")
 
 # 제거할 열 목록
 columns_to_drop = ['ID', 'YEAR', 'SAMPLE_TRANSFER_DAY', 'COMPONENT_ARBITRARY', 'U100', 'U75', 'U50', 'U25', 'U14', 'U6', 'U4', 'FH2O', 'FNOX', 'FOPTIMETHGLY', 'FOXID', 'FSO4', 'FTBN', 'FUEL', 'SOOTPERCENTAGE']
