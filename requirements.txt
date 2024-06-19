@@ -16,6 +16,7 @@ bokeh==3.4.1
 bounded-pool-executor==0.0.3
 bs4==0.0.2
 cachetools==5.3.3
+catboost
 category-encoders==2.6.3
 certifi==2024.2.2
 cffi==1.16.0
